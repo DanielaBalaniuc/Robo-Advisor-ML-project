@@ -38,6 +38,7 @@ NLP Module (optional)	Analyze news/earnings reports	FinBERT, summarization model
 
 
 Roadmap: Step-by-Step
+
 🔹 Phase 1: Problem Scoping & Planning
 Define user personas (e.g., conservative, moderate, aggressive investors).
 
@@ -88,40 +89,6 @@ Use logs to improve personalization over time.
 
 Add a feedback loop for retraining (MLOps).
 
-Optional Enhancements:
-
-Voice-enabled portfolio advice (speech recognition → NLP → recommendation).
-
-ESG scoring from text-based news or reports using transformer models.
-
-
-RoboAdvisorML/
-│
-├── data/                        # Raw and processed data
-│   ├── raw/
-│   └── processed/
-│
-├── notebooks/                  # Jupyter Notebooks for EDA, modeling, backtesting
-│   ├── 01_eda.ipynb
-│   ├── 02_forecasting.ipynb
-│   └── 03_portfolio_optimizer.ipynb
-│
-├── src/                        # Source code
-│   ├── data_loader.py
-│   ├── forecast_model.py
-│   ├── portfolio_optimizer.py
-│   ├── recommender.py
-│   └── utils.py
-│
-├── app/                        # Streamlit dashboard files
-│   └── app.py
-│
-├── tests/                      # Unit tests
-│   └── test_forecast.py
-│
-├── requirements.txt            # Project dependencies
-├── README.md                   # Project overview
-└── .gitignore
 
 
 
