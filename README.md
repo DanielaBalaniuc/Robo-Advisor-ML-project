@@ -95,8 +95,6 @@ Voice-enabled portfolio advice (speech recognition → NLP → recommendation).
 ESG scoring from text-based news or reports using transformer models.
 
 
-
-
 RoboAdvisorML/
 │
 ├── data/                        # Raw and processed data
@@ -124,3 +122,6 @@ RoboAdvisorML/
 ├── requirements.txt            # Project dependencies
 ├── README.md                   # Project overview
 └── .gitignore
+
+
+
